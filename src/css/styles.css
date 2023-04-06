@@ -7,6 +7,9 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('../css/unique.css');
+@import url('../css/unique-mob.css');
+@import url('../css/unique-tab.css');
+@import url('../css/unique-desktop.css');
 
 :root {
   font-synthesis: none;
