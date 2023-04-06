@@ -2,4 +2,7 @@
   .container {
     width: 704px;
   }
+  .unique-item {
+    width: calc((100% - 32px) / 2);
+  }
 }
