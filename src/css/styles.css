@@ -7,6 +7,11 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./mobilemenu.css');
+@import url('./hero-mobile.css');
+@import url('./hero-tablet.css');
+@import url('./hero-desktop.css');
+
+
 :root {
   
   font-synthesis: none;
