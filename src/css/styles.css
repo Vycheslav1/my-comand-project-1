@@ -6,10 +6,15 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+
 @import url('../css/unique.css');
 @import url('../css/unique-mob.css');
 @import url('../css/unique-tab.css');
 @import url('../css/unique-desktop.css');
+
+@import url('./hero-mobile.css');
+@import url('./hero-tablet.css');
+@import url('./hero-desktop.css');
 
 :root {
   font-synthesis: none;
