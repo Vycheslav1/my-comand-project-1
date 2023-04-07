@@ -1,0 +1,135 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 14px;
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .nav-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .header-container {
+      
+        align-items: center;
+    }
+
+    .header-social {
+        margin-left: auto;
+    }
+        .header-logo {
+            font-weight: 700;
+                font-size: 18px;
+                letter-spacing: 0.03em;
+                line-height: 1.11;
+
+        }
+
+
+    .header-logo-link {
+        display: block; 
+        align-items: center;
+        margin-right: 188px;
+        
+    }
+
+    .header-logo-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header-social-item {
+        width: 24px;
+        height: 24px;
+    }
+        .header-social-icon {
+            fill: #fff;
+            stroke: #111111;
+            stroke-width: 2px;
+        
+        }
+
+ .mobile-menu {
+     display: none;
+ }
+ .mobile-menu-open {
+    display: none;
+ }
+ .header-social-icon:is(:hover, :focus) {
+     stroke: #FD9222;
+ }
+ 
+}
+@media screen and (max-width: 1199px) {
+    .nav-list {
+            display: none;
+        }
+        .header-social {
+            display: none;
+        }}
+
+                .header-container {
+                    display: flex;
+                    justify-content: space-between;
+                }
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    color: #111111;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #FD9222;
+}
+
+.header-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+
+.mobile-menu-social-icon {
+    fill: #fff;
+    stroke: #111111;
+    stroke-width: 1.5px;
+
+
+} 
+
+/* .header-social-item {
+
+    width: 22px;
+    height: 22px;
+
+} */
+
+ 
+
+
+
+.header-logo span {
+    font-style: italic;
+}
+
+.header-logo-link {
+    display: flex;
+    gap: 4px; 
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.14;
+    }
+
+
