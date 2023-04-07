@@ -1,5 +1,20 @@
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1136px;
+  }
+  .unique-container {
+    padding-top: 108px;
+    padding-bottom: 108px;
+  }
+  .unique-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .unique-box-choco,
+  .unique-box-milk,
+  .unique-box-nuts,
+  .unique-box-milkchoco {
+    max-width: 270px;
   }
 }
