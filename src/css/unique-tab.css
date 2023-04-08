@@ -19,13 +19,4 @@
   .unique-text {
     max-width: 486px;
   }
-  .milk {
-    order: 3;
-  }
-  .nuts {
-    order: 4;
-  }
-  .coffe {
-    order: 2;
-  }
 }
