@@ -49,11 +49,13 @@
     .header-social-item {
         width: 24px;
         height: 24px;
+       
     }
         .header-social-icon {
             fill: #fff;
             stroke: #111111;
             stroke-width: 2px;
+           
         
         }
 
