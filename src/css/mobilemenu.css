@@ -142,6 +142,7 @@
             fill: #111111;
                 stroke-width: 2px;
         }
+                }
                  @media screen and (min-width: 768px) {
                 .mobile-menu {
                 width: 37%;
@@ -174,4 +175,3 @@
         }
                  }
 
-}
