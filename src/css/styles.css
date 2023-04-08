@@ -6,11 +6,13 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
-
+@import url('./section-5.css');
+@import url('./tablet.css');
+@import url('./descktop.css');
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --webkit-text-size-adjust: 100%;
 }

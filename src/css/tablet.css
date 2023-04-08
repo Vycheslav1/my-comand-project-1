@@ -1,0 +1,92 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 614px;
+  }
+  .container {
+    width: 100%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding-bottom: 20px;
+    margin: 0 auto;
+    background: #e2e2e2;
+  }
+  .how-it’s-made {
+    width: 768px;
+    background: #E2E2E2;
+  }
+  .title-how-it’s-made {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 32px;
+  }
+  .text-markers::before {
+    margin-left: 32px;
+  }
+  .photo {
+    width: 614px;
+    height: 400px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/cofee-tablet-1X.jpg);
+    border-radius: 15px;
+  }
+  .list-title {
+width: 350px;
+height: 48px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: -0.02em;
+color: #111111;
+  }
+  .list-item {
+    width: 464px;
+    margin-left: 48px;
+  }
+  .section-text {
+    width: 614px;
+  }
+  .text-blocks {
+  }
+  .section-blocks {
+    width: 614px;
+height: 356px;
+
+background: #FFFFFF;
+border-radius: 15px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 1) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 96dpi) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 1dppx) and (min-width: 768px) and (max-width: 1199px) {
+  .photo-blocks {
+    width: 614px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/cofee-tablet-1X.jpg);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
+  .photo-blocks {
+    width: 614px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/cofee-tablet-2X.jpg);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+  }
+}
