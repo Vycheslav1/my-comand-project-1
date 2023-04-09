@@ -18,6 +18,22 @@
                 <h3 class="reviews-item-title">Olena Kampusch</h3>
                 <p class="reviews-item-text"> Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The wafer is soft but crunchy.</p>
             </li>
+            <li class="reviews-list-item">
+                <img width="80" height="80" srcset="../img/Reviews/reviews-img-1-2x.png 2x" src="../img/Reviews/reviews-img-1.png" alt="" class="reviews-item-img">
+                <h3 class="reviews-item-title">Victoria Dobrzhanska</h3>
+                <p class="reviews-item-text">I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.
+                </p>
+            </li>
+            <li class="reviews-list-item">
+                <img width="80" height="80" srcset="../img/Reviews/reviews-img-2-2x.png 2x" src="../img/Reviews/reviews-img-2.png" alt="" class="reviews-item-img">
+                <h3 class="reviews-item-title">Nazar Babenko</h3>
+                <p class="reviews-item-text">This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth, and the chocolate is good.</p>
+            </li>
+            <li class="reviews-list-item">
+                <img width="80" height="80" srcset="../img/Reviews/reviews-img-3-2x.png 2x" src="../img/Reviews/reviews-img-3.png" alt="" class="reviews-item-img">
+                <h3 class="reviews-item-title">Olena Kampusch</h3>
+                <p class="reviews-item-text"> Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The wafer is soft but crunchy.</p>
+            </li>
         </ul>
 
         <div class="swiper-pagination"></div>
@@ -43,7 +59,34 @@
 
    
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+
+            const swiper = new Swiper('.reviews-list', {
+            // Optional parameters
+            direction: 'vertical',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+            el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+             el: '.swiper-scrollbar',
+            },
+            });
+          
+            
+          </script>
+          
         
 
         
