@@ -13,6 +13,10 @@
     margin-left: 32px;
   }
 
+  .hero-title {
+    padding-top: 381px;
+  }
+
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
