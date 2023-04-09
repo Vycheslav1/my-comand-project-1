@@ -6,15 +6,20 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
-@import url('../css/unique.css');
-@import url('../css/unique-mob.css');
-@import url('../css/unique-tab.css');
-@import url('../css/unique-desktop.css');
+@import url('./unique.css');
+@import url('./unique-mob.css');
+@import url('./unique-tab.css');
+@import url('./unique-desktop.css');
 @import url('./mobilemenu.css');
 @import url('./reviews.css');
 @import url('./hero-mobile.css');
 @import url('./hero-tablet.css');
 @import url('./hero-desktop.css');
+@import url('./Top-Sellers/css/styles.css');
+@import url('./Top-Sellers/css/mobile-style.css');
+@import url('./Top-Sellers/css/tablet-style.css');
+@import url('./Top-Sellers/css/desktop-style.css');
+@import url('./Top-Sellers/css/modal-stile.css');
 
 :root {
   
@@ -28,7 +33,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-\
+
 
 .container {
 
