@@ -7,10 +7,10 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./mobilemenu.css');
+@import url('./reviews.css');
 @import url('./hero-mobile.css');
 @import url('./hero-tablet.css');
 @import url('./hero-desktop.css');
-
 
 :root {
   
@@ -23,6 +23,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+\
+
 .container {
 
   width: 100%;
