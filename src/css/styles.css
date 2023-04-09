@@ -6,20 +6,63 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
-
-@import url('../css/unique.css');
-@import url('../css/unique-mob.css');
-@import url('../css/unique-tab.css');
-@import url('../css/unique-desktop.css');
-
+@import url('./advantages.css');
+@import url('./unique.css');
+@import url('./unique-mob.css');
+@import url('./unique-tab.css');
+@import url('./unique-desktop.css');
+@import url('./mobilemenu.css');
+@import url('./reviews.css');
 @import url('./hero-mobile.css');
 @import url('./hero-tablet.css');
 @import url('./hero-desktop.css');
-
+@import url('./Top-Sellers/css/styles.css');
+@import url('./Top-Sellers/css/mobile-style.css');
+@import url('./Top-Sellers/css/tablet-style.css');
+@import url('./Top-Sellers/css/desktop-style.css');
+@import url('./Top-Sellers/css/modal-stile.css');
+@import url('./footer.css');
 :root {
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.container {
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    
+  }
 }
