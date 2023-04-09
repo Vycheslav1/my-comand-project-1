@@ -36,6 +36,11 @@ line-height: 1.29;
 text-align: center;
 letter-spacing: -0.02em;
 color: rgba(17, 17, 17, 0.7);
+text-align:center;
+}
+
+.swiper{
+    overflow: unset;
 }
 
 
@@ -47,7 +52,8 @@ color: rgba(17, 17, 17, 0.7);
     position: relative;
     padding: 56px 18px 42px;
     margin: 0;
-    min-width: 335px;
+    max-width: 335px;
+    height: unset;
 }
 
 .reviews-item-img{
@@ -55,6 +61,7 @@ color: rgba(17, 17, 17, 0.7);
     top: -40px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 100000;
 }
 
 .reviews-btn{
@@ -78,4 +85,27 @@ color: rgba(17, 17, 17, 0.7);
 display: flex;
 justify-content: center;
 gap: 28px;
+min-width: 0;
 }
+
+.swiper-pagination-bullet{
+    width: 13px;
+    height: 13px;
+
+    background: rgba(17, 17, 17, 0.1);
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    width: 28px;
+    height: 13px;
+
+    border-radius: 10px;
+
+    background: #FD9222;
+}
+
+.slider-pagination{
+    display: flex;
+    justify-content: center;
+}
+

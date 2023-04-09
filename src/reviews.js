@@ -1,24 +1,24 @@
-  // import Swiper JS
-  import Swiper from 'swiper';
+import Swiper from 'swiper/bundle';
 
-const swiper = new Swiper('.reviews-swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+  spaceBetween: 20,
+
+  pagination: {
+    el: '.slider-pagination',
+    clickable: true,
+  },
+
+  // breakpoints: {
+  //   768: {
+  //     slidesPerView: 1,
+  //     spaceBetween: 30,
+  //   },
+  //   // when window width is >= 640px
+  //   1200: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 40,
+  //   },
+  // },
+});
