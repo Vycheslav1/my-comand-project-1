@@ -1,4 +1,7 @@
-const swiper = new Swiper('.reviews-list-item', {
+  // import Swiper JS
+  import Swiper from 'swiper';
+
+const swiper = new Swiper('.reviews-swiper', {
     // Optional parameters
     direction: 'vertical',
     loop: true,
