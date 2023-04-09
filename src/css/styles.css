@@ -6,6 +6,7 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./advantages.css');
 @import url('./unique.css');
 @import url('./unique-mob.css');
 @import url('./unique-tab.css');
@@ -21,7 +22,6 @@
 @import url('./Top-Sellers/css/desktop-style.css');
 @import url('./Top-Sellers/css/modal-stile.css');
 @import url('./footer.css');
-
 :root {
   
   font-synthesis: none;
