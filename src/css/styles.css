@@ -6,18 +6,14 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./reviews.css');
 @import url('./hero-mobile.css');
 @import url('./hero-tablet.css');
 @import url('./hero-desktop.css');
 
-:root {
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
 
+
+\
 
 .container {
   width: 100%;
