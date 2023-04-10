@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+@import 'swiper/css/bundle';
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./reviews.css');
@@ -13,7 +14,7 @@
 
 
 
-\
+
 
 .container {
   width: 100%;
