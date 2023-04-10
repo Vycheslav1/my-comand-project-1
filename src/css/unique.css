@@ -127,6 +127,9 @@
   color: #111111;
   margin-bottom: 8px;
 }
+.button-box {
+  display: flex;
+}
 .unique-btn {
   font-family: 'Montserrat';
   font-style: normal;
@@ -177,6 +180,7 @@
   border: 1px solid #fd9222;
   border-radius: 15px;
   position: relative;
+  order: 3;
 }
 .unique-box-nuts {
   max-width: 335px;
