@@ -9,7 +9,10 @@
   .unique-list {
     display: flex;
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 19px;
+  }
+  .unique-block {
+    overflow: auto;
   }
   .unique-box-choco,
   .unique-box-milk,
