@@ -1,0 +1,24 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: calc(100% - 64px);
+  }
+
+  .hero {
+    background-image: url(../images/hero/desktop-hero.jpg);
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../images/hero/desctop-hero@2x.jpg);
+    }
+  }
+}
