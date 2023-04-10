@@ -8,14 +8,6 @@
   --white: #ffffff;
   --ocean: #404bbf;
 }
-/* body {
-      background-color: var(--white);
-      color: var(--slate);
-      font-family: Roboto, sans-serif;
-      letter-spacing: 0.02em;
-      font-size: 16px;
-      min-height: 320px;
-    } */
 h1,
 h2,
 h3,
@@ -31,11 +23,7 @@ ul {
 }
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 375;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    padding-bottom: 20px;
-    margin: 0 auto;
+    max-width: 335px;
     background: #e2e2e2;
   }
   .how-it’s-made {
@@ -46,16 +34,30 @@ ul {
     gap: 20px;
     isolation: isolate;
     width: 335px;
-  }
-  /* секция 4 */
-  /* .how-it’s-made {
-    display: flex;
-    flex-direction: column;
+    background: #e2e2e2;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
     align-items: center;
-    padding: 0px;
-    gap: 32px;
-    width: 375px;
-  } */
+  }
+  .icon-play {
+    box-sizing: border-box;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    position: absolute;
+    width: 14px;
+    height: 15px;
+    background-color: aqua;
+  }
   .text-markers::before {
     content: '';
     display: block;
@@ -70,12 +72,6 @@ ul {
     margin-top: 5px;
   }
   .photo {
-    width: 335px;
-    background: #ffffff;
-    border-radius: 15px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../images/cofee-1X.jpg);
-    border-radius: 15px;
   }
   .title-how-it’s-made {
     font-family: 'Montserrat';
@@ -111,7 +107,6 @@ ul {
     line-height: 18px;
     letter-spacing: -0.02em;
     color: #111111;
-    margin-bottom: 18px;
     margin-left: 30px;
   }
   .section-text {
@@ -155,39 +150,30 @@ ul {
     text-transform: uppercase;
     color: #111111;
   }
+  .section-list {
+    background: #ffffff;
+  }
+  .section-5 {
+    background: #ffffff;
+    width: 100%;
+  }
 }
 .list-markers {
   list-style-type: none;
 }
-
-/* .photo-blocks {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/cofee-1X.jpg);
-  border-radius: 15px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .photo-blocks {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../images/cofee-2X.jpg);
-    border-radius: 15px;
-    background-repeat: no-repeat;
-  }
-} */
 @media screen and (min-device-pixel-ratio: 1) and (min-width: 375px) and (max-width: 768px),
   screen and (min-resolution: 96dpi) and (min-width: 375px) and (max-width: 768px),
   screen and (min-resolution: 1dppx) and (min-width: 375px) and (max-width: 768px) {
   .photo-blocks {
     width: 335px;
     height: 500px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(../images/cofee-1X.jpg);
     border-radius: 15px;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 375px) and (max-width: 768px),
@@ -196,7 +182,7 @@ ul {
   .photo-blocks {
     width: 335px;
     height: 500px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(../images/cofee-2X.jpg);
     border-radius: 15px;
     background-repeat: no-repeat;

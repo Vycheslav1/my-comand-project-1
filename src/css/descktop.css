@@ -1,60 +1,46 @@
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    /* display: flex;
-    justify-content: center; */
     height: 478px;
   }
   .how-it’s-made {
     width: 1200px;
-    background: #E2E2E2;
-}
-.section-text {
+    background: #e2e2e2;
+    padding: 0 32px;
+  }
+  .section-text {
     display: flex;
     flex-direction: none;
-}
-.title-how-it’s-made {
-   /* position: absolute; */
-}
-.section-blocks {
-    width: 600px;
-}
-.photo {
-    width: 600px;
-}
-.logo-primary-link {
-    
-}
-.text{
-
-}
-.list-title{
-
-}
-.text-markers{
-    
-}
-}
-
-/* @media screen and (min-width: 1200px) {
-    .photo-blocks { 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../images/cofee-descktop-1X.jpg);
-    height: 400px;
-    background-repeat: no-repeat;
+    width: 100%;
   }
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .photo-blocks {
-            width: 600px;
-            height: 400px;
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(../images/cofee-descktop-2X.jpg);
-        
-    }
+  .section-blocks {
+    width: 600px;
+    height: 100%;
   }
-} */
+  .photo {
+    width: 600px;
+  }
+  .section-5 {
+    background: #ffffff;
+    width: 100%;
+  }
+  .logo-primary-link {
+  }
+  .text {
+  }
+  .list-item {
+  }
+  .list-title {
+    margin-top: 32px;
+  }
+  .text-markers {
+  }
+  .section-list {
+    display: flex;
+    border-radius: 15px;
+    background: #FFFFFF;
+  }
+}
 @media screen and (min-device-pixel-ratio: 1) and (min-width: 1200px),
   screen and (min-resolution: 96dpi) and (min-width: 1200px),
   screen and (min-resolution: 1dppx) and (min-width: 1200px) {
@@ -65,6 +51,9 @@
       url(../images/cofee-descktop-1X.jpg);
     border-radius: 15px;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
