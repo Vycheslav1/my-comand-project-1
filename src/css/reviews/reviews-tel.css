@@ -109,3 +109,54 @@ min-width: 0;
     justify-content: center;
 }
 
+.swiper-pagination{
+    display: block;
+    margin-top: 31px;
+}
+
+.reviews-slid{
+    background: #FFFFFF;
+        border: 1px solid rgba(17, 17, 17, 0.1);
+        box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+        border-radius: 15px;
+        position: relative;
+        padding: 56px 18px 42px;
+        margin: 0;
+        max-width: 335px;
+        height: unset;
+        margin-bottom: 31px;
+}
+
+.reviw-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+letter-spacing: -0.02em;
+color: rgba(17, 17, 17, 0.7);
+text-align: center;
+}
+
+
+
+.container-reviews{
+    overflow: hidden;
+}
+
+
+.reviews-btn:is(:hover, :focus){
+color: #FFFFFF;
+background-color: #FD9222;
+}
+
+.reviews-swiper__wrap{
+    display: flex;
+}
+
+
+
+
+
+

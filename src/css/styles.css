@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+@import 'swiper/css/bundle';
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./advantages.css');
@@ -33,7 +34,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
 
 
 .container {
