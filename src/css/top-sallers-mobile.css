@@ -1,11 +1,13 @@
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      /* padding-bottom: 20px; */
+      margin: 0 auto;
+    }
+    
+ 
   .desktop-tablet-title {
     display: none;
   }
