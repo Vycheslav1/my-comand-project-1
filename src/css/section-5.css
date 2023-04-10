@@ -1,0 +1,190 @@
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --cloud: #f4f4fd;
+  --Silver: #c0c0c0;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+  --white: #ffffff;
+  --ocean: #404bbf;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 335px;
+    background: #e2e2e2;
+  }
+  .how-it’s-made {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    isolation: isolate;
+    width: 335px;
+    background: #e2e2e2;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-play {
+    box-sizing: border-box;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    position: absolute;
+    width: 14px;
+    height: 15px;
+    background-color: aqua;
+  }
+  .text-markers::before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #4c4c4c;
+    border: 1px solid #eceded;
+    margin-right: 8px;
+    border-radius: 50%;
+    margin-left: 14px;
+    position: absolute;
+    margin-top: 5px;
+  }
+  .photo {
+  }
+  .title-how-it’s-made {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 32px;
+  }
+  .list-title {
+    width: 307px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111111;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+  .list-item {
+    width: 291px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #111111;
+    margin-left: 30px;
+  }
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    isolation: isolate;
+    width: 335px;
+  }
+  .text-blocks {
+    width: 335px;
+    height: 456px;
+    background: #ffffff;
+    border-radius: 15px;
+  }
+  .section-blocks {
+    padding: 0px;
+  }
+  .logo-primary-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #fd9222;
+    text-decoration: none;
+  }
+  .logo-style {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+  }
+  .section-list {
+    background: #ffffff;
+  }
+  .section-5 {
+    background: #ffffff;
+    width: 100%;
+  }
+}
+.list-markers {
+  list-style-type: none;
+}
+@media screen and (min-device-pixel-ratio: 1) and (min-width: 375px) and (max-width: 768px),
+  screen and (min-resolution: 96dpi) and (min-width: 375px) and (max-width: 768px),
+  screen and (min-resolution: 1dppx) and (min-width: 375px) and (max-width: 768px) {
+  .photo-blocks {
+    width: 335px;
+    height: 500px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/cofee-1X.jpg);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 375px) and (max-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 375px) and (max-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 375px) and (max-width: 768px) {
+  .photo-blocks {
+    width: 335px;
+    height: 500px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/cofee-2X.jpg);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+  }
+}

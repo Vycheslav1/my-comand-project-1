@@ -7,6 +7,11 @@
 @import 'swiper/css/bundle';
 @import url('./reset.css');
 @import url('./header.css');
+<<<<<<< HEAD
+@import url('./section-5.css');
+@import url('./tablet.css');
+@import url('./descktop.css');
+=======
 @import url('./advantages.css');
 @import url('./unique.css');
 @import url('./unique-mob.css');
@@ -22,13 +27,14 @@
 @import url('./top-sallers-tablet.css');
 @import url('./top-sallers-desktop.css');
 @import url('./footer.css');
+>>>>>>> main
 :root {
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --webkit-text-size-adjust: 100%;
 }
 body {
   font-family: 'Montserrat', sans-serif;
