@@ -7,13 +7,15 @@
     padding-right: 0;
     padding-bottom: 0;
   }
+
   .hero {
-    background-image: url(../images/hero/tablet-hero.jpg);
+    background-image: url(../images/tablet/tablet-hero.jpg);
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 32px;
     margin-left: 32px;
+    margin-bottom: 50px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -42,5 +44,18 @@
 
   .hero-nav-btn {
     margin-top: 0;
+  }
+
+  .hero-button-icon {
+    width: 38px;
+    height: 38px;
+  }
+
+  .button-hero-main {
+    padding: 14px 40px;
+  }
+
+  .button-hero-sec {
+    padding: 14px 40px;
   }
 }
