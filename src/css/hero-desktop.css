@@ -4,13 +4,14 @@
   }
 
   .hero {
-    background-image: url(../images/hero/desktop-hero.jpg);
+    background-image: url(../images/desktop/desktop-hero.jpg);
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
     margin-right: 32px;
     margin-left: 32px;
+    margin-bottom: 72px;
   }
 
   .hero-title {
