@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) {
+    .reviews-swiper__wrap{
+        max-width: 316px;
+    }
+}
