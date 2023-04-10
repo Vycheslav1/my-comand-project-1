@@ -91,9 +91,10 @@ transition-duration: 250ms;
  }
 
  .icon-instagram {
-     stroke: #FFFFFF;
-     transition-property: stroke;
-     transition-duration: 250ms;
+    fill: #1E1823;
+    stroke: #FFFFFF;
+    transition-property: stroke;
+    transition-duration: 250ms;
      
  }
 
@@ -106,15 +107,16 @@ transition-duration: 250ms;
 
 
  .icon-twitter {
-     fill: #FFFFFF;
-     transition-property: fill;
+     fill:#1E1823;
+     stroke: #FFFFFF;
+     transition-property: stroke;
      transition-duration: 250ms;
    
  }
 
  .icon-twitter:hover,
  .icon-twitter:focus {
-     fill: #FD9222;
+    stroke: #FD9222;
  }
 
  .navigation-footer {
