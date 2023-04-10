@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+@import 'swiper/css/bundle';
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./advantages.css');
@@ -16,11 +17,10 @@
 @import url('./hero-mobile.css');
 @import url('./hero-tablet.css');
 @import url('./hero-desktop.css');
-@import url('./Top-Sellers/css/styles.css');
-@import url('./Top-Sellers/css/mobile-style.css');
-@import url('./Top-Sellers/css/tablet-style.css');
-@import url('./Top-Sellers/css/desktop-style.css');
-@import url('./Top-Sellers/css/modal-stile.css');
+@import url('./top-sallers.css');
+@import url('./top-sallers-mobile.css');
+@import url('./top-sallers-tablet.css');
+@import url('./top-sallers-desktop.css');
 @import url('./footer.css');
 :root {
   
@@ -33,7 +33,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
 
 
 .container {

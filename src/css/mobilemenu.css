@@ -1,5 +1,5 @@
 @media screen and (max-width:1199px) {
-    
+   
      .mobile-menu {
         position: fixed;
         width: 58%;
@@ -173,5 +173,6 @@
         .mobile-social-link:is(:hover, :focus) {
             background-color: #FD9222;
         }
-                 }
+             
+   }
 
