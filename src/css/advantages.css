@@ -1,0 +1,147 @@
+/* Section advantages */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 28px;
+}
+
+.advantages {
+    background-color: #1E1823;
+    padding: 20px;
+}
+
+.advantages-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.advantages-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.advantages-icon {
+    fill: #FD9222;
+
+}
+
+.advantages-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background-color: #1E1823;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 22px;
+}
+
+@media screen and (max-width: 767px) {
+    .advantages-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 704px;
+        padding-right: 0;
+    }
+
+    .advantages-list {
+        display: flex;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .advantages-list {
+            flex-wrap: wrap;
+        }
+    }
+
+    @media screen and (max-width: 1199px) {
+        .advantages-item:last-child {
+            margin-bottom: 35px;
+        }
+    }
+
+    .advantages-item {
+        width: 308px;
+        margin-bottom: 32px;
+    }
+
+    .advantages-item:first-child {
+        margin-right: 60px;
+    }
+
+    .advantages {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1136px;
+        padding: 0 18px;
+    }
+
+    .advantages-item {
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    .advantages-item.after {
+        width: 326px;
+    }
+
+    .advantages-item:not(:last-child) {
+        margin-right: 70px;
+        padding-right: 18px;
+    }
+
+    .advantages-item.after::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 124px;
+        height: 0;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        transform-origin: right;
+        transform: rotate(-90deg) translateX(50%);
+    }
+
+
+}
