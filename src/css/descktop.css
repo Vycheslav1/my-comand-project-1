@@ -1,0 +1,70 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    height: 478px;
+  }
+  .how-it’s-made {
+    width: 1200px;
+    background: #e2e2e2;
+    padding: 0 32px;
+  }
+  .section-text {
+    display: flex;
+    flex-direction: none;
+    width: 100%;
+  }
+  .section-blocks {
+    width: 600px;
+    height: 100%;
+  }
+  .photo {
+    width: 600px;
+  }
+  .section-5 {
+    background: #ffffff;
+    width: 100%;
+  }
+  .logo-primary-link {
+  }
+  .text {
+  }
+  .list-item {
+  }
+  .list-title {
+    margin-top: 32px;
+  }
+  .text-markers {
+  }
+  .section-list {
+    display: flex;
+    border-radius: 15px;
+    background: #FFFFFF;
+  }
+}
+@media screen and (min-device-pixel-ratio: 1) and (min-width: 1200px),
+  screen and (min-resolution: 96dpi) and (min-width: 1200px),
+  screen and (min-resolution: 1dppx) and (min-width: 1200px) {
+  .photo-blocks {
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/cofee-descktop-1X.jpg);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+  .photo-blocks {
+    width: 60px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/cofee-descktop-2X.jpg);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+  }
+}
