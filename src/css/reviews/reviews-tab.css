@@ -2,4 +2,8 @@
     .reviews-swiper__wrap{
         max-width: 316px;
     }
+
+        .reviews {
+            padding-bottom: 100px;
+        }
 }
