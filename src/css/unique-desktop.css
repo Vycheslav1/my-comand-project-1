@@ -11,6 +11,12 @@
     flex-wrap: nowrap;
     gap: 19px;
   }
+  .unique-item:nth-of-type(2) {
+    order: 1;
+  }
+  .unique-item:nth-of-type(4) {
+    order: 3;
+  }
   .unique-block {
     overflow: auto;
   }

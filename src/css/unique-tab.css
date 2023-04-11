@@ -1,5 +1,4 @@
 @media screen and (min-width: 768px) {
-
   .container {
     width: 704px;
     padding-left: 32px;
@@ -15,6 +14,12 @@
   .unique-item {
     width: calc((100% - 32px) / 2);
     gap: 32px;
+  }
+  .unique-item:nth-of-type(3) {
+    order: 2;
+  }
+  .unique-item:nth-of-type(2) {
+    order: 1;
   }
   .unique-title {
     max-width: 411px;
