@@ -116,7 +116,7 @@
 
     }
         .mobile-menu-social-icon {
-            fill: #111111;
+            fill: #1E1823;
             stroke: #ffffff;
             stroke-width: 1.5px;
             width: 22px;
@@ -137,6 +137,7 @@
         .mobile-menu-open {
             background-color: #fff;
             border: none;
+            padding: 0;
         }
         .menu-open-icon {
             fill: #111111;
