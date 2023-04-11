@@ -18,7 +18,7 @@
     text-transform: uppercase;
     color: #111111;
     margin-bottom: 32px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
   }
   .work-markers::before {
     margin-left: 32px;
