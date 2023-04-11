@@ -19,6 +19,7 @@
   }
   .section-list-img-desktop {
     display: flex;
+    justify-content: center;
     gap: 16px;
   }
   .desktop-tablet-title {

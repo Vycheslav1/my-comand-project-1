@@ -4,7 +4,7 @@
   }
 
   .hero {
-    background-image: url(../images/desktop/desktop-hero.jpg);
+    background-image: url(./images/desktop/desktop-hero.jpg);
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(../images/hero/desctop-hero@2x.jpg);
+      background-image: url(./images/hero/desctop-hero@2x.jpg);
     }
   }
 }

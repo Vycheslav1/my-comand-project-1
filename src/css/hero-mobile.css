@@ -26,7 +26,7 @@ img {
   padding-bottom: 20px;
 }
 .hero {
-  background-image: url(../images/mobile/mobile-hero.jpg);
+  background-image: url(./images/mobile/mobile-hero.jpg);
   border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,7 +40,7 @@ img {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/hero/mobile-hero@2x.jpg);
+    background-image: url(./images/hero/mobile-hero@2x.jpg);
   }
 }
 
