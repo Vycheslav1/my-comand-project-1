@@ -6,12 +6,12 @@
   .work {
     width: 1200px;
     /* background: #e2e2e2; */
-    padding: 0 32px;
+    /* padding: 0 32px; */
   }
   .work-section-text {
     display: flex;
     flex-direction: none;
-    width: 100%;
+    width: 516px;
   }
   .work-section-block {
     width: 600px;
@@ -22,7 +22,8 @@
   }
   .work-section {
     background: #ffffff;
-    width: 100%;
+    width: 516px;
+    margin-left: 20px;
   }
   .work-list-text{
     width: 350px;
@@ -42,6 +43,10 @@
     margin-top: 32px;
     padding-left: 0px;
   }
+  .work-list-item {
+    width: 436px;
+    
+}
 }
 @media screen and (min-device-pixel-ratio: 1) and (min-width: 1200px),
   screen and (min-resolution: 96dpi) and (min-width: 1200px),

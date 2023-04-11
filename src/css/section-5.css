@@ -69,12 +69,12 @@ margin-right: 20px;
     justify-content: center;
     align-items: center;
     border: 1px solid #FFFFFF;
+    border-radius: 50%;
   }
   .work-icon {
-    position: absolute;
-    width: 14px;
-    height: 15px;
-    background-color: aqua;
+    width: 20px;
+height: 21px;
+background: #F5F4F4;
   }
   .work-markers::before {
     content: '';
@@ -89,6 +89,11 @@ margin-right: 20px;
     position: absolute;
     margin-top: 5px;
   }
+  /* .vector{
+    width: 20px;
+height: 21px;
+background: #F5F4F4;
+  } */
   .work-title {
     font-family: 'Montserrat';
     font-style: normal;
