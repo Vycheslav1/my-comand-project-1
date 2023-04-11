@@ -20,6 +20,9 @@
   .unique-block {
     overflow: auto;
   }
+  .unique-desc {
+    max-width: 230px;
+  }
   .unique-box-choco,
   .unique-box-milk,
   .unique-box-nuts,
