@@ -1,12 +1,9 @@
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    /* height: 478px; */
   }
   .work {
     width: 1200px;
-    /* background: #e2e2e2; */
-    /* padding: 0 32px; */
   }
   .work-section-text {
     display: flex;
@@ -25,7 +22,7 @@
     width: 516px;
     margin-left: 20px;
   }
-  .work-list-text{
+  .work-list-text {
     width: 350px;
     height: 48px;
     font-family: 'Montserrat';
@@ -34,24 +31,21 @@
     font-size: 18px;
     line-height: 24px;
   }
-  .text-markers {
-  }
   .work-list {
     display: -webkit-box;
     border-radius: 15px;
-    background: #FFFFFF;
+    background: #ffffff;
     margin-top: 32px;
     padding-left: 0px;
   }
   .work-list-item {
     width: 436px;
-    
-}
+  }
 }
 @media screen and (min-device-pixel-ratio: 1) and (min-width: 1200px),
   screen and (min-resolution: 96dpi) and (min-width: 1200px),
   screen and (min-resolution: 1dppx) and (min-width: 1200px) {
-  .work-photo{
+  .work-photo {
     width: 600px;
     height: 400px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),

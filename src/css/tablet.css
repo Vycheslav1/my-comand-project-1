@@ -5,7 +5,6 @@
   }
   .work {
     width: 768px;
-    /* background: #E2E2E2; */
     margin: 0 auto;
   }
   .work-title {
@@ -32,45 +31,37 @@
       url(../images/cofee-tablet-1X.jpg);
     border-radius: 15px;
   }
-  .work-list{
-width: 350px;
-/* height: 48px; */
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 24px;
-letter-spacing: -0.02em;
-color: #111111;
+  .work-list {
+    width: 350px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #111111;
   }
   .work-list-item {
     width: 464px;
     margin-left: 48px;
-    
   }
   .work-section-text {
     width: 614px;
   }
   .work-list {
-    background: #FFFFFF;
+    background: #ffffff;
     padding-left: 57px;
-}
-.work-list-text {
-
-} 
-  .text-blocks {
   }
   .work-section-block {
     width: 614px;
-height: 356px;
-
-background: #FFFFFF;
-border-radius: 15px;
+    height: 356px;
+    background: #ffffff;
+    border-radius: 15px;
   }
   .work-section {
     background: #ffffff;
     width: 100%;
-}
+  }
 }
 @media screen and (min-device-pixel-ratio: 1) and (min-width: 768px) and (max-width: 1199px),
   screen and (min-resolution: 96dpi) and (min-width: 768px) and (max-width: 1199px),
