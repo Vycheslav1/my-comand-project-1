@@ -12,7 +12,7 @@ const swiper = new Swiper('.reviews-swiper', {
   },
   spaceBetween: 30,
   autoplay: {
-    delay: 2000,
+    delay: 1570,
     stopOnLastSlide: false,
     disableOnIteration: false,
   },
