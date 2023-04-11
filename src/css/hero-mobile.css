@@ -22,7 +22,9 @@ li {
 img {
   display: block;
 }
-
+.hero-container {
+  padding-bottom: 20px;
+}
 .hero {
   background-image: url(../images/mobile/mobile-hero.jpg);
   border-radius: 30px;

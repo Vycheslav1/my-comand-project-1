@@ -137,6 +137,7 @@
         .mobile-menu-open {
             background-color: #fff;
             border: none;
+            padding: 0;
         }
         .menu-open-icon {
             fill: #111111;

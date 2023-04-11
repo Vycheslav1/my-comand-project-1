@@ -5,11 +5,12 @@
   |============================
 */
 @import 'swiper/css/bundle';
-@import url('./reset.css');
+@import url('./modal.css');
 @import url('./header.css');
- /* @import url('./section-5.css');
+@import url('./section-5.css');
+@import url('./section-5.css');
 @import url('./tablet.css');
-@import url('./descktop.css'); */
+@import url('./descktop.css');
 @import url('./advantages.css');
 @import url('./unique.css');
 @import url('./unique-mob.css');
@@ -24,6 +25,7 @@
 @import url('./top-sallers-mobile.css');
 @import url('./top-sallers-tablet.css');
 @import url('./top-sallers-desktop.css');
+@import url('./fallback-our-products.css');
 @import url('./subscriber.css');
 @import url('./footer.css');
 
@@ -69,4 +71,39 @@ body {
     max-width: 1200px;
     
   }
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  height: auto;
 }
