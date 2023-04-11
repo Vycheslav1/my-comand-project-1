@@ -3,7 +3,7 @@
   (min-resolution: 1dppx) and (min-width: 375px) and (max-width: 767px) {
   .subscriber {
     display: flex;
-    width: 375px;
+    max-width: 375px;
     height: 370px;
     margin: 0 auto;
     padding-top: 62px;
