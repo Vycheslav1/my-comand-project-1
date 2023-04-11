@@ -1,18 +1,13 @@
 @media screen and (max-width: 767px) {
   .container {
-      width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-      /* padding-bottom: 20px; */
-      margin: 0 auto;
-    }
-    
- 
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .desktop-tablet-title {
     display: none;
-  }
-  .top-sellers-title {
-    margin-bottom: 32px;
   }
   .btn-sale {
     margin: 0 auto;
@@ -22,5 +17,15 @@
   .section-list-img-desktop,
   .section-list-img-tablet {
     display: none;
+  }
+  .section-list-img-mobile {
+    justify-content: center;
+    align-content: center;
+  }
+  .top-sellers-title {
+    margin-bottom: 32px;
+  }
+  #text {
+    margin-bottom: 20px;
   }
 }
