@@ -3,12 +3,11 @@
     max-width: 767px;
     margin: 0 auto;
   }
-  .how-it’s-made {
+  .work {
     width: 768px;
-    background: #E2E2E2;
     margin: 0 auto;
   }
-  .title-how-it’s-made {
+  .work-title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -19,11 +18,12 @@
     text-transform: uppercase;
     color: #111111;
     margin-bottom: 32px;
+    padding-top: 100px;
   }
-  .text-markers::before {
+  .work-markers::before {
     margin-left: 32px;
   }
-  .photo {
+  .work-photo-coffe {
     width: 614px;
     height: 400px;
 
@@ -31,47 +31,42 @@
       url(../images/cofee-tablet-1X.jpg);
     border-radius: 15px;
   }
-  .list-title {
-width: 350px;
-height: 48px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 24px;
-letter-spacing: -0.02em;
-color: #111111;
+  .work-list {
+    width: 350px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #111111;
   }
-  .list-item {
+  .work-list-item {
     width: 464px;
     margin-left: 48px;
-    
   }
-  .section-text {
+  .work-section-text {
     width: 614px;
   }
-  .section-list {
-    background: #FFFFFF;
-}
-  .text-blocks {
+  .work-list {
+    background: #ffffff;
+    padding-left: 57px;
   }
-  .section-blocks {
+  .work-section-block {
     width: 614px;
-height: 356px;
-
-background: #FFFFFF;
-border-radius: 15px;
+    height: 356px;
+    background: #ffffff;
+    border-radius: 15px;
   }
-  .section-5 {
+  .work-section {
     background: #ffffff;
     width: 100%;
+  }
 }
-}
-
 @media screen and (min-device-pixel-ratio: 1) and (min-width: 768px) and (max-width: 1199px),
   screen and (min-resolution: 96dpi) and (min-width: 768px) and (max-width: 1199px),
   screen and (min-resolution: 1dppx) and (min-width: 768px) and (max-width: 1199px) {
-  .photo-blocks {
+  .work-photo {
     width: 614px;
     height: 400px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -86,7 +81,7 @@ border-radius: 15px;
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
   screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
-  .photo-blocks {
+  .work-photo {
     width: 614px;
     height: 400px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
