@@ -29,6 +29,7 @@
   }
   .order-block {
     display: flex;
+      justify-content: center;
   }
   .photo-img1,
   .photo-img2,
