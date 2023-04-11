@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url('images/Subcribe-m-1x.jpg');
+      url(/images/subscriber/Subcribe-m-1x.jpg);
   }
 }
 @media (min-device-pixel-ratio: 2) and (min-width: 375px) and (max-width: 767px),
@@ -24,7 +24,7 @@
     padding-bottom: 63px;
     background-position: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url('images/Subcribe-m-2x.jpg') no-repeat/375px 370px;
+      url(/images/subscriber/Subcribe-m-2x.jpg) no-repeat/375px 370px;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
