@@ -1,84 +1,26 @@
-<div class="beckdrop is-hidden"  data-modal>
-  <div class="container modal-wrap">
-    <button class="close-modal-window"  modal-close type="button">
-      <svg class="modal-svg" width="28" height="28">
-        <use href="./Images/sprite.svg#icon-x"></use>
-      </svg>
-    </button>
-    <ul>
-      <li class="image-modal-desctop-tablet">
-        <picture>
-          <source
-            srcset="
-              ./Images/desktop/tetiana-bykovets.jpg    1x,
-              ./Images/desktop/tetiana-bykovets@2x.jpg 2x
-            "
-            media="(min-width:1200px)"
-          />
-          <source
-            srcset="
-              ./Images/desktop-style/tetiana-bykovets.webp 1x,
-              ./Images/desktop/tetiana-bykovets@2x.webp    2x
-            "
-            media="(min-width:1200px)"
-            type="Image/webp"
-          />
-          <img
-            src="./Images/desktop/tetiana-bykovets.jpg"
-            class="modal-img"
-            width="538"
-            height="196"
-            alt="chocolate photo"
-          />
-        </picture>
-      </li>
-      <li class="image-modal-mobile">
-        <picture>
-          <source
-            srcset="
-              ./Images/mobile/tetiana-bykovets.jpg    1x,
-              ./Images/mobile/tetiana-bykovets@2x.jpg 2x
-            "
-            media="(max-width:767px)"
-          />
-          <source
-            srcset="
-              ./Images/mobile/tetiana-bykovets.webp    1x,
-              ./Images/mobile/tetiana-bykovets@2x.webp 2x
-            "
-            media="(max-width:767px)"
-            type="Image/webp"
-          />
-          <img
-            src="./Images/mobile/tetiana-bykovets.jpg"
-            class="modal-img"
-            width="538"
-            height="169"
-            alt="chocolate photo"
-          />
-        </picture>
-      </li>
-    </ul>
-    <p class="modal-title">
-      Explore our <br />
-      <span class="modal-title-color">new chocolate</span> first!
-    </p>
-    <div class="button-block">
-      <form class="modal-form" action="#">
-        <label class="mail-form" for="email">
-          <input
-            type="email"
-            id="email"
-            class="input-mail"
-            name="email"
-            placeholder="Enter your email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            required
-          />
-        </label>
-      </form>
-      <button class="button-submit" type="submit">Submit</button>
-    </div>
-  </div>
-</div>
 
+  <div class="modal-explorer is-hidden" explorer-data-modal>
+    <div class="modal-explorer-container">
+    <div class="modal-explorer-section">
+      <button modal-close class="close-modal-explorer" type="button" explorer-modal-close>
+        <svg class="close-modal-explorer-icon">
+          <use href="./images/header-img.svg#menu-icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <h2 class="modal-explorer-title">Explore our <span class="modal-explorer-title-tablet"><span
+          class="modal-explorer-title-sec">new chocolate</span> first!</span>
+      <div class="modal-explorer-form">
+        <form class="modal-explorer-form-item" action="#">
+          <label class="modal-explorer-form-item" for="email">
+            <input type="email" id="email" class="modal-explorer-input" name="email" placeholder="Enter your email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
+          </label>
+        </form>
+        <button class="modal-explorer-btn" type="submit">Submit</button>
+        </div>
+      </div>
+
+  </div>
+
+ 
