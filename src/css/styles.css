@@ -30,6 +30,10 @@
 @import url('./modal-explorer.css');
 @import url(./buy-now/buy-now.css);
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   
   font-synthesis: none;
