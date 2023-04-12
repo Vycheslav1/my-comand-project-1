@@ -34,6 +34,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.btn:is(:hover, :focus){
+  background-color: transparent;
+  color: #121212; 
+  border: 1px solid #FD9222;
+
+}
+
 :root {
   
   font-synthesis: none;
