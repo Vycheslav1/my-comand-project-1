@@ -106,6 +106,7 @@
 .modal-explorer-input {
     margin-left: 24px;
     margin-right: 24px;
+    padding-right: 100px;
     width: 263px;
     height: 45px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
@@ -178,7 +179,9 @@
                         background-image: url(../images/modal-expl/background-tablet@2x.jpg);
                     }
                 }
-
+.modal-explorer-input{
+    padding-right: 0;
+}
    
 
     .modal-explorer-section {
