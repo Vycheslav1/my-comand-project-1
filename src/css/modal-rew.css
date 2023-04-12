@@ -120,5 +120,40 @@ margin-bottom: 40px;
     left: 50px;
 }
 
+@media screen and (min-width: 768px) {
+
+    .modal-reviews-conteiner{
+        width: 517px;
+    }
+
+        .modal-reviews-tel {
+            position: absolute;
+            left: 74px;
+            top: 277px;
+        }
+
+        .modal-reviews-tel-svg {
+            position: absolute;
+            top: 277.5px;
+            left: 50px;
+        }
+
+        .modal-reviews-title{
+            max-width: 298px;
+            text-align: left;
+        }
+
+
+   
+  
+}
+
+@media screen and (min-width: 1200px) {
+
+.modal-reviews-conteiner {
+        width: 517px;
+    }
+}
+
 
 
