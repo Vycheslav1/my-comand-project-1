@@ -135,15 +135,14 @@
 }
 
 .buy-option-img {
-    margin-bottom: 14px;
-    margin-top: 24px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-bottom: 14px;
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
     /* margin: 24px 20px 14px 20px; */
 }
 
 .buy-option-button {
-    margin-left: 32px;
     padding: 8px 27px;
     background: #FAFAFA;
     border: 1px solid rgba(17, 17, 17, 0.1);
@@ -268,6 +267,11 @@ max-width: 609px;
     /* width: 160px; */
     padding-bottom: 18px;
 
+}
+
+.buy-option-button{
+    display: block;
+    margin: 0 auto;
 }
 
  
