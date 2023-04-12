@@ -100,5 +100,25 @@ margin-bottom: 40px;
     border-radius: 10px;
         border-color: rgba(17, 17, 17, 0.1);
         min-height: 91px;
+        resize: none;
 }
+
+.modal-reviews-input:nth-child(3){
+ padding-left: 106px;
+ position: relative;
+}
+
+.modal-reviews-tel{
+    position: absolute;
+    left: 74px;
+    top: 277px;
+}
+
+.modal-reviews-tel-svg{
+    position: absolute;
+    top: 276.5px;
+    left: 50px;
+}
+
+
 
