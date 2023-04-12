@@ -11,7 +11,7 @@
     background-position: center;
     background-size: cover;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(/images/subscriber/Subcribe-d-1x.jpg);
+      url(/images/subscriber/Subcribe-d-1x.jpg) no-repeat/1200px 370px;
   }
 }
 
@@ -22,6 +22,7 @@
     margin: 0 auto;
     padding-top: 72px;
     padding-bottom: 72px;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
