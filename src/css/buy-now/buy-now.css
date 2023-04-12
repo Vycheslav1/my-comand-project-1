@@ -239,6 +239,14 @@
     justify-content: center;
 }
 
+.text-input{
+    padding-top: 14px;
+}
+
+.form-input{
+    padding-left: 18px;
+}
+
 
 
 .label {
