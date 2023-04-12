@@ -12,26 +12,6 @@
 
 
 
-.modal{
-    position: absolute;
-        top: 80%;
-        left: 50%;
-        transform: translate(-50%, -50%) scale(1);
-        transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        width: 311px;
-        background-color: #FFFFFF;
-        opacity: 1;
-        border-radius: 4px;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-            0px 1px 3px rgba(0, 0, 0, 0.12),
-            0px 2px 1px rgba(0, 0, 0, 0.2);
-    
-        z-index: 9999999999;
-        padding: 14px 14px 32px 24px;
-        overflow: scroll;
-}
-
-
 
 .button {
     padding: 14px 40px;
@@ -77,8 +57,8 @@
     position: fixed;
     left: 50%;
     width: 100%;
-    max-width: 609px;
-    padding: 48px;
+    max-width: 311px;
+    padding: 24px;
     background-color: #FAFAFA;
     border-radius: 15px;
     transform: translate(-50%, -50%) scale(1);
@@ -134,6 +114,8 @@
     margin-left: auto;
     margin-right: auto;
     gap: 16px;
+    flex-direction: column;
+    margin-bottom: 32px;
 }
 
 .buy-option-item {
@@ -182,7 +164,10 @@
 
 .shape-personal-information {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 18px;
+   
+    
 }
 
 .label-email {
@@ -256,3 +241,20 @@
 .form-group {
     margin-bottom: 18px;
 }
+
+@media screen and (min-width: 768px) {
+.modal{
+max-width: 609px;
+}
+
+.buy-option-list{
+    flex-direction: row;
+}
+
+.shape-personal-information{
+    flex-direction: row;
+}
+
+ 
+}
+

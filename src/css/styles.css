@@ -35,9 +35,9 @@ html {
 }
 
 .btn:is(:hover, :focus){
-  background-color: transparent;
-  color: #121212; 
-  border: 1px solid #FD9222;
+  background-color: #FCF1E0;
+  color: #FD9222; 
+  border: 1px solid #FCF1E0;
 
 }
 
