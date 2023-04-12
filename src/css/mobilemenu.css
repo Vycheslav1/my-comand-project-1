@@ -31,20 +31,27 @@
 
     }
 
-    .mobile-menu-link:active {
-        color: #FD9222;
-        
-    }
+   
+        .mobile-menu-link:hover,
+        .mobile-menu-link:focus {
+            color: #FD9222;
+        }
+                .mobile-menu-link {
+            position: relative;
+        }
         .mobile-menu-link:active::after {
-            content: '';
+        content: '';
             width: 50%;
             height: 1px;
             background-color: #FD9222;
             position: absolute;
             left: 0;
             bottom: -8px;
+            
         } 
-.mobile-social-link:active .mobile-menu-social-icon {
+                 
+        
+.mobile-social-link:is(:hover, :focus) .mobile-menu-social-icon {
     stroke: #FD9222;
 }
     
@@ -130,7 +137,6 @@
     
 
     
-
     .mobile-social-icon {
         fill: currentColor;
     }  
