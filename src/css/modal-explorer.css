@@ -1,0 +1,218 @@
+.beckdrop{
+    z-index: 999999999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.4), rgba(46, 47, 66, 0.4));
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-wrap{
+        position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
+            transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            width: 311px;
+            background-color: #FFFFFF;
+            opacity: 1;
+            border-radius: 4px;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+                0px 1px 3px rgba(0, 0, 0, 0.12),
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+        
+            z-index: 9999999999;
+}
+
+
+.container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.modal-explorer {
+    position: relative;
+    width: 311px;
+    height: 350px;
+    border-radius: 15px;
+    border: 1px solid rgb(128, 128, 128, 0.2);
+}
+
+.close-modal-explorer {
+    position: absolute;
+    top: 15px;
+    right: 14px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    height: 24px;
+    width: 24px;
+}
+
+.close-modal-explorer-icon {
+    width: 16px;
+    height: 16px;
+    color: #FFFFFF;
+}
+
+.modal-explorer-section {
+    display: block;
+    width: 311px;
+    height: 169px;
+    background-color: grey;
+    background-image: url(../images/mobile/background-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.modal-explorer-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.modal-explorer-title-sec {
+    color: #FD9222;
+}
+
+.modal-explorer-form {
+    position: relative;
+    border: none;
+    padding: 0;
+    margin-top: 24px;
+    display: flex;
+}
+
+.modal-explorer-input {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 263px;
+    height: 45px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 25px;
+    padding-left: 18px;
+}
+
+.modal-explorer-input::placeholder {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    color: rgba(64, 64, 64, 0.3);
+}
+
+.modal-explorer-btn {
+    position: absolute;
+    top: 0;
+    right: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 28px;
+    gap: 14px;
+    width: 100px;
+    height: 45px;
+    background: #FD9222;
+    border-radius: 100px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .modal-explorer-section {
+        background-image: url(../images/mobile/background-mobile@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+    }
+
+    .modal-explorer {
+        position: relative;
+        width: 538px;
+        height: 412px;
+        border: none;
+    }
+
+    .modal-explorer-section {
+        width: 538px;
+        height: 196px;
+        background-image: url(../images/tablet/background-tablet.jpg);
+    }
+
+    .modal-explorer-title {
+        font-size: 24px;
+        line-height: 1.17;
+    }
+
+    .modal-explorer-btn {
+        position: static;
+        padding: 17px 40px;
+        width: 137px;
+        height: 52px;
+    }
+
+    .modal-explorer-input {
+        width: 313px;
+        height: 52px;
+        margin-right: 8px;
+        margin-left: 0;
+    }
+
+    .modal-explorer-input::placeholder {
+        font-size: 18px;
+        line-height: 1.22;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.02em;
+        padding-bottom: 14px;
+        padding-top: 14px;
+        color: rgba(64, 64, 64, 0.3);
+    }
+
+    .modal-explorer-title-tablet {
+        display: block;
+    }
+
+    .modal-explorer-title {
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    
+}
