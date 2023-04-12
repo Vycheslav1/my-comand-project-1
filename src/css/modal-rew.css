@@ -21,7 +21,7 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    min-width: 311px;
+    width: 311px;
     background-color: #FFFFFF;
     opacity: 1;
     border-radius: 4px;
@@ -47,6 +47,7 @@ text-transform: uppercase;
 
 color: #111111;
 text-align: center;
+margin-bottom: 40px;
 }
 
 
@@ -62,4 +63,42 @@ text-align: center;
     border: transparent;
 }
 
+
+.modal-reviews-sub{
+    background-color: #FD9222;
+    border-radius: 100px;
+    padding: 12px 28px;
+    border: transparent;
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 14px;
+
+}
+
+.modal-reviews-flex{
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+    padding-right: 10px;
+}
+
+.modal-reviews-input{
+    padding: 14px 0;
+    padding-left: 18px;
+    border-radius: 10px;
+    border-color: rgba(17, 17, 17, 0.1);
+}
+
+.modal-reviews-text{
+  padding-top: 14px;
+    padding-left: 18px;
+    border-radius: 10px;
+        border-color: rgba(17, 17, 17, 0.1);
+        min-height: 91px;
+}
 
