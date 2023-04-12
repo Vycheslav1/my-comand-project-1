@@ -28,6 +28,7 @@
 @import url('./subscriber.css');
 @import url('./footer.css');
 @import url('./modal-explorer.css');
+@import url(./buy-now/buy-now.css);
 
 :root {
   

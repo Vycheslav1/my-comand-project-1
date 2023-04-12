@@ -1,136 +1,97 @@
-
 <!-- Modal -->
-<div class="backdrop is-hidden" data-modal>
-
-<div class="modal"> 
-    <button type="button" data-modal-close class="modal-close">
-      <svg class="icon-close" width="20px" height="20px">
-        <use href="/src/images/symbol-defs.svg#icon-x"></use>
+<div class="backdrop is-hidden" buy-data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close" buy-modal-close>
+      <svg class="icon-close" width="20" height="20">
+        <use href="../src/images/symbol-defs.svg#icon-x"></use>
       </svg>
     </button>
-
     <p class="modal-title"><span class="title-buy">buy</span> now</p>
-
     <div class="container buye-option-container">
-    <ul class="buy-option-list">
-      <li class="card buy-option-item">
-        <img class="buy-option-img"src="./src/images/modal-img/dark-chocolate.jpg" alt="Dark Chocolate" width="120">
-      <button type="button" class="buy-option-button">100g</button>
-    </li>
-      <li class="card buy-option-item">
-        <img class="buy-option-img"src="./src/images/modal-img/white-chocolate.jpg" alt="White Chocolate" width="120">
-       <button type="button" class="buy-option-button">200g</button>
-      </li>
-      <li class="card buy-option-item">
-        <img class="buy-option-img"src="./src/images/modal-img/milk-chocolate.jpg" alt="Milk Chocolate" width="120">
-       <button type="button" class="buy-option-button">300g</button>
-      </li>
-    </ul>
+      <ul class="buy-option-list">
+        <li class="card buy-option-item">
+          <img class="buy-option-img" src="../src/images/modal-img/dark-chocolate.jpg" alt="Dark Chocolate"
+            width="120" />
+          <button type="button" class="buy-option-button">100g</button>
+        </li>
+        <li class="card buy-option-item">
+          <img class="buy-option-img" src="../src/images/modal-img/white-chocolate.jpg" alt="White Chocolate"
+            width="120" />
+          <button type="button" class="buy-option-button">200g</button>
+        </li>
+        <li class="card buy-option-item">
+          <img class="buy-option-img" src="../src/images/modal-img/milk-chocolate.jpg" alt="Milk Chocolate"
+            width="120" />
+          <button type="button" class="buy-option-button">300g</button>
+        </li>
+      </ul>
     </div>
-
     <form>
-      
       <div class="form-group">
-          <label class="form-label" for="name">
-            <span>Personal information</span>
+        <label class="form-label personal-information">
+          <span class="label-personal-information label">Personal information</span>
+          <div class="shape-personal-information">
             <span class="form-field">
-          <input 
-            type="text"
-            name="name"
-            id="name"
-            class="form-input"
-            placeholder="Name"
-            required>
-	</span>
-	<span class="form-field">
-          <input 
-            type="text"
-            name="surname"
-            id="surname"
-            class="form-input"
-            placeholder="Surname"
-            required>
-		</span>
+              <input type="text" name="name" class="form-input form-per-info" placeholder="Name" required />
+            </span>
+            <span class="form-field">
+              <input type="text" name="surname" class="form-input form-per-info" placeholder="Surname" required />
+            </span>
+          </div>
         </label>
       </div>
-
-  
-        
-    <div class="form-group">
-      <label class="form-label" for="email">
-          <span>Email</span>
+      <div class="form-group">
+        <label class="form-label">
+          <div class="shape-email">
+            <span class="label-email label">Email</span>
+            <span class="form-field">
+              <input type="email" name="email" class="form-input form-per-email" placeholder="Enter your email"
+                required />
+            </span>
+          </div>
+        </label>
+      </div>
+      <div class="form-group">
+        <label class="form-label">
+          <span class="label-phone-number label">Phone number</span>
           <span class="form-field">
-          <input
-            type="email"
-            name="email"
-            id="email"
-            class="form-input"
-            placeholder="Enter your email"
-            required >
-          </span>
-          </label>
-     </div>
-
-   
-      <div class="form-group">
-          <label class="form-label" for="phone">
-          <span>Phone number</span>
-          <span class="form-field"> 
-          <input
-          type="number"
-          name="phone" 
-          id="phone"
-          class="form-input"
-          placeholder="Phone number"
-          required >
+            <input type="number" name="phone" class="form-input form-per-phone" placeholder="Phone number" required />
           </span>
         </label>
       </div>
-
       <div class="form-group">
-        <label class="form-label" for="card">
-        <span>Card number</span>
-        <span class="form-field"> 
-        <input
-        class="cc-number"
-        id="cc-number"
-        name="cardNumber"
-        autocomplete="off"
-        maxlength="20"
-        inputmode="numeric"
-        pattern="[0-9]*"
-
-        placeholder="Enter card"
-        required >
-        <span class="form-icon"><svg class="card-icon" width="32px" height="18px">
-          <use href="./images/symbol-defs.svg#icon-mastercard"></use>
-        </svg>
-      </span>
-        </span>
-      </label>
-    </div>
-
-        <div class="form-group">
-        <div class="form-field">  
-        <label class="form-label" for="comment"><span>Comment</span>
-          <textarea 
-            name="comment"
-            id="comment"
-            rows="10"
-            class="text-input"
-            placeholder="Enter text"></textarea>
+        <label class="form-label">
+          <span class="label-card-number label">Card number</span>
+          <span class="form-field">
+            <div class="card-and-logomaster">
+              <input class="cc-number form-per-card form-input" name="cardNumber" autocomplete="off" maxlength="20"
+                inputmode="numeric" pattern="[0-9]*" placeholder="Enter card" required />
+              <span class="form-icon"><svg class="card-icon" width="60" height="30">
+                  <use href="./images/symbol-defs.svg#icon-mastercard"></use>
+                </svg>
+              </span>
+            </div>
+          </span>
+        </label>
+      </div>
+      <div class="form-group">
+        <div class="form-field">
+          <label class="form-label"><span class="label-comment label">Comment</span>
+            <textarea name="comment" rows="10" class="text-input form-input" placeholder="Enter text"></textarea>
           </label>
-        </div></div>
-  
-   
-          
-        <button type="submit" class="form-button button">Send</button>
-      </form>
-    </div>
-
-</div>
-
+        </div>
+      </div>
+      <button type="submit" class="form-button button">Submit</button>
+    </form>
+  </div>
 </div>
 
 
-   
+
+
+
+
+
+
+
+
