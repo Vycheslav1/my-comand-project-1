@@ -1,11 +1,11 @@
 {
-  "name": "comand-project",
+  "name": "my-comand-project-1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/comand-project/",
+    "build": "vite build --base=/my-comand-project-1/",
     "preview": "vite preview"
   },
   "devDependencies": {
